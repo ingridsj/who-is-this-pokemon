@@ -1,0 +1,41 @@
+.main-home {
+  background-image: url("../../assets/images/blue-background.svg"),
+    var(--background);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+
+  h1 {
+    color: var(--yellow);
+
+    letter-spacing: 0.2em;
+    font-size: 54px;
+    font-weight: normal;
+
+    margin-bottom: 42px;
+  }
+
+  img {
+    display: block;
+
+    margin-bottom: 42px;
+  }
+
+  button {
+    background-color: var(--red);
+    color: #fff;
+
+    border: none;
+    font-size: 24px;
+
+    width: 270px;
+    height: 50px;
+
+    border-radius: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+}

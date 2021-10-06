@@ -1,7 +1,9 @@
-import React from "react";
+import { Routes } from "./routers/routes";
+
+import "./global.scss";
 
 function App() {
-  return <h1>oii</h1>;
+  return <Routes />;
 }
 
 export default App;
